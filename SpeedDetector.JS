@@ -3,16 +3,15 @@ function checkSpeed(speed) {
     const kmPerDemeritPoint = 5;
 
     if (speed < speedLimit) {
-        console.log("Ok");
-        return;
+        return ("Ok");
     }
 
 let demeritPoints = Math.floor((speed - speedLimit) / kmPerDemeritPoint);
 
     if (demeritPoints > 12) {
-        console.log("License suspended");
+        return("License suspended");
     } else {
-        console.log(`Points: ${demeritPoints}`);
+        return(`Points: ${demeritPoints}`);
     }
 }
 
