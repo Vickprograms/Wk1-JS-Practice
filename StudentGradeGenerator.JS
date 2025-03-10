@@ -1,5 +1,5 @@
 function getStudentGrade() {
-    let marks = parseFloat(prompt("Enter student marks (0-100):"));
+    let marks = parseFloat("Enter student marks (0-100):");
 
     if (isNaN(marks) || marks < 0 || marks > 100) {
         return("Invalid input. Please enter a number between 0 and 100.");
