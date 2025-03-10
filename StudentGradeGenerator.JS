@@ -17,6 +17,6 @@ function getStudentGrade() {
     } else {
         grade = "E";
     }
-
+    
     return(`The student's grade is: ${grade}`);
 }
