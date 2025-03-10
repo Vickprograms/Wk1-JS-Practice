@@ -1,0 +1,32 @@
+     //----StudentGradeCalculator---//
+
+The program promts the user to enter the student marks ranging between 0 to 100 and assigns a grade based o the provided marks.
+
+The grading system is :
+Marks greater than 79 ----> A
+Marks btwn 60 and 79 -----> B
+Marks btwn 50 and 59 -----> C
+Marks btwn 40 and 49 -----> D
+Marks below 40      ------> E
+
+
+     //---------- Speed Detector-------//
+
+The program checks the  speed at wich a car is traveling at and if it exceeds the speed limit it issues demerit point.
+If a driver accumulates more than 12 demerit points the license is suspended.
+The program check the speed of the car and if it below 70km/hr it prints ok.
+If the peed of a car is above 70km/hr, for every 5km/hr over the speed limit it gives out one demerit point.
+
+
+      //---------Net Salary Calculator-------------//
+
+The program calculates individual Salary based on their basic Salaryand benefits.
+It takes to account dedactions which include:
+-Pay as you earn
+-Social health Insurance fund =>2.75% of gross salary.
+-Housing levy =>1.5% of gross saalary.
+
+The user inputs basic salary and benefits to get the gross salary.
+PAYE is calculated based on the defined tax band.
+Total deduction calculated and subtracted from net salary to get the net salary. 
+
